@@ -1,0 +1,12 @@
+To get student Detail  =      http://localhost:8080/student/getData
+To create student Details =    http://localhost:8080/student/createData
+Get student by id     =   http://localhost:8080/student/getData/4
+Update Student Reord  =  http://localhost:8080/student/updateStudent/5
+                       
+                       {
+                         "name":"Sunil",
+                         "subject":"commerse",
+                         "marks":93,
+                         "city":"bihar"
+                        }
+To delete the student record by id  =  http://localhost:8080/student/deleteById/3
